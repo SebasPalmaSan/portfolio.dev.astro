@@ -1,0 +1,112 @@
+---
+import GitHubIcon from "./icons/GitHubIcon.astro";
+import ReactIcon from "../components/icons/ReactIcons.astro";
+import BootstrapIcon from "../components/icons/BootstrapIcon.astro";
+import TailwindIcon from "../components/icons/TailwindIcon.astro";
+import NextIcon from "../components/icons/NextIcon.astro";
+import Link from "./icons/Link.astro";
+import LinkButton from "./LinkButton.astro";
+
+const TAGS = {
+  REACT: {
+    name: "React.js",
+    class: "bg-blue text-white",
+    icon: ReactIcon,
+  },
+  BOOTSTRAP: {
+    name: "Bootstrap",
+    class: "bg-blue text-white",
+    icon: BootstrapIcon,
+  },
+  TAILWIND: {
+    name: "Tailwind CSS",
+    class: "bg-blue text-white",
+    icon: TailwindIcon,
+  },
+  NEXT: {
+    name: "Next.js",
+    class: "bg-blue text-white",
+    icon: NextIcon,
+  },
+};
+
+const PROJECTS = [
+  {
+    title: "Mundo Pop",
+    description:
+      "Mundo Pop! es un e-commerce online de FunkoPop!. Creada y dirijida a los fanaticos de los Funkos! Proyecto creado con react-create-app. Cuenta con una lista de productos disponibles y las renderiza, tambien, por su correspondiente categoría. Cada producto cuenta con su detalle, donde podremos acceder a seleccionarlo en el cvarrito de compras y poder gestionar la compra. La app utiliza la base de datos de Firebase.",
+    link: "https://mundo-popdb.web.app/",
+    github: "https://github.com/SebasPalmaSan/mundopop",
+    image: "public/mundo-pop.png",
+    tags: [TAGS.REACT, TAGS.BOOTSTRAP],
+  },
+  {
+    title: "Gif Expert App",
+    description: "Proyecto de Gif para encontrar todos los gif que quieras",
+    link: "https://gif-expert-sebastian.netlify.app/",
+    github: "https://github.com/SebasPalmaSan/gif-expert",
+    image: "public/gif-expert-app.png",
+    tags: [TAGS.REACT],
+  },
+  {
+    title: "Devfinder",
+    description: "Proyecto buscador de users de Github",
+    link: "https://github-front-mu.vercel.app/",
+    github: "https://github.com/SebasPalmaSan/Github-front",
+    image: "public/definder.png",
+    tags: [TAGS.REACT, TAGS.TAILWIND],
+  },
+  {
+    title: "Todo",
+    description:
+      "Challenge de Frontend Mentor: TODO realizado con React + TAILWIND CSS con Drag and Drop con libreria Hello pangea",
+    link: "https://todo-vite-react-taildwind.netlify.app/",
+    github: "https://github.com/SebasPalmaSan/todo-vite-react-frontendmentor",
+    image: "public/todo.png",
+    tags: [TAGS.REACT, TAGS.TAILWIND],
+  },
+];
+---
+
+<div class="flex flex-col gap-y-16">
+  {
+    PROJECTS.map(({ title, description, link, image, tags, github }) => (
+      <article class="mb-10">
+        <h3 class="text-3xl font-semibold text-blue-200/90 mb-4">{title}</h3>
+        <p class="text-lg text-red-200/90">{description}</p>
+        <a href={link} />
+        <ul class="flex gap-x-4 flex-row text-lg opacity-70">
+          {tags.map((tag) => (
+            <li>
+              <span
+                class={`flex gap-x-2 rounded-full text-lg ${tag.class} py-1 px-2`}
+              >
+                <tag.icon class="size-8" />
+                {tag.name}
+              </span>
+            </li>
+          ))}
+        </ul>
+        <img
+          class="rounded shadow-2xl shadow-white/20"
+          src={image}
+          alt={`Captura de pantalla de proyecto ${image}`}
+        />
+        <footer class="flex items-end justify-start mt-4 gap-x-4">
+          {github && (
+            <LinkButton href={github}>
+              <GitHubIcon class="size-6" />
+              Code
+            </LinkButton>
+          )}
+          {link && (
+            <LinkButton href={link}>
+              <Link class="size-4" />
+              Preview
+            </LinkButton>
+          )}
+        </footer>
+      </article>
+    ))
+  }
+</div>

@@ -1,0 +1,80 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Badge from "../components/Badge.astro";
+import SectionContainer from "../components/SectionContainer.astro";
+import Briefcase from "../components/icons/Briefcase.astro";
+import CodeIcon from "../components/icons/CodeIcon.astro";
+import LinkedinIcon from "../components/icons/LinkedinIcon.astro";
+import GitHubIcon from "../components/icons/GitHubIcon.astro";
+import GmailIcon from "../components/icons/GmailIcon.astro";
+import SocialPill from "../components/SocialPill.astro";
+import Experience from "../components/Experience.astro";
+import Projects from "../components/Projects.astro";
+import Contact from "../components/Contact.astro";
+---
+
+<Layout title="Sebastian Palma Sánchez | Desarrollador Frontend.">
+  <article class="px-6">
+    <SectionContainer>
+      <img
+        class="order-1 object-cove rounded-full w-60 h-60 opacity-80 mb-6"
+        src="public/foto-sebastian.jpg"
+        alt="foto sebastian"
+      />
+      <h1
+        class="text-white text-2xl md:text4xl lg:text-5xl font-bold gap-x-4 pb-6 lg:pb-10 flex flex-row"
+      >
+        ¡Hola! soy Sebastián<a
+          href="/public/CV - Sebastián Palma Sánchez - 02.2024.pdf"
+          class="flex justify-center items-center"
+        >
+          <Badge>Descargar CV</Badge>
+        </a>
+      </h1>
+      <h2 class="text-xl lg:text-2xl text-wrap max-w-[700px]">
+        <span>+3 años de experiencia.</span><span class="text-blue-200/90">
+          Desarrollador Frontend.
+        </span>
+        <span class="text-red-200/90">Buenos Aires, Argentina.</span>
+        <span>
+          Flexible y creativo. Con capacidad para el trabajo en equipo, la
+          adaptación al cambio y la comunicación efectiva.
+        </span>
+        <span class="opacity-50">
+          Predisposición para el aprendizaje continuo.
+        </span>
+      </h2>
+
+      <nav class="flex gap-4 mt-4 flex-wrap">
+        <SocialPill href="https://www.linkedin.com/in/sebastianpalmasanchez/">
+          <LinkedinIcon class="size-4 md:size-6" />
+          LinkedIn
+        </SocialPill>
+        <SocialPill href="https://github.com/SebasPalmaSan">
+          <GitHubIcon class="size-4 md:size-6" />
+          GitHub
+        </SocialPill>
+        <SocialPill href="mailto:sebapalma59@gmail.com">
+          <GmailIcon class="size-4 md:size-6" />
+          Gmail
+        </SocialPill>
+      </nav>
+    </SectionContainer>
+
+    <SectionContainer id="experiencia">
+      <h2 class="text-3xl mb-10 font-semibold flex gap-x-2 items-center">
+        <Briefcase class="size-8" />
+        Experiencia
+      </h2>
+      <Experience />
+    </SectionContainer>
+
+    <SectionContainer id="proyectos">
+      <h2 class="text-3xl mb-10 font-semibold flex gap-x-2 items-center">
+        <CodeIcon class="size-8" />
+        Proyectos
+      </h2>
+      <Projects />
+    </SectionContainer>
+  </article>
+</Layout>

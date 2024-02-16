@@ -1,0 +1,62 @@
+---
+// Supports weights 100-900
+// Supports weights 100-900
+import "@fontsource-variable/montserrat";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <!-- <div
+      class="absolute top-0 z-[-2] h-screen w-screen bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]"
+    >
+    </div> -->
+    <Header />
+    <slot />
+    <Footer />
+  </body>
+</html>
+<style is:global>
+  :root {
+    color-scheme: light dark;
+  }
+  html {
+    font-family: "Montserrat Variable", system-ui, sans-serif;
+    scroll-behavior: smooth;
+  }
+  body {
+    /* background: #161616; */
+    position: absolute;
+    top: 0;
+    z-index: -2;
+    height: 100vh;
+    width: 100vw;
+    background: radial-gradient(#ffffff33 1px, #00091d 1px);
+    background-size: 20px 20px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+</style>
