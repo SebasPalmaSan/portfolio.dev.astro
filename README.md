@@ -2,7 +2,7 @@
 
 #Realizado con Astro y Tailwind
 
-Desktop Aboutme
+Desktop About me
 ![sobre-mi (2)](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/53d0af81-3bd1-46e0-9de9-bb4ea4a1fb1a)
 
 
