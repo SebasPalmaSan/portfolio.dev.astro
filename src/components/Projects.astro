@@ -34,7 +34,7 @@ const PROJECTS = [
   {
     title: "Mundo Pop",
     description:
-      "Mundo Pop! es un e-commerce online de FunkoPop!. Creada y dirijida a los fanaticos de los Funkos! Proyecto creado con react-create-app. Cuenta con una lista de productos disponibles y las renderiza, tambien, por su correspondiente categoría. Cada producto cuenta con su detalle, donde podremos acceder a seleccionarlo en el carrito de compras y poder gestionar la compra. La app utiliza la base de datos de Firebase.",
+      "Mundo Pop! es un e-commerce online de FunkoPop!. Cuenta con una lista de productos disponibles y las renderiza. Cada producto cuenta con su detalle, donde podremos acceder a seleccionarlo en el carrito de compras y poder gestionar la compra. La app utiliza la base de datos de Firebase.",
     link: "https://mundo-popdb.web.app/",
     github: "https://github.com/SebasPalmaSan/mundopop",
     image: "/mundo-pop.png",
@@ -43,7 +43,7 @@ const PROJECTS = [
   {
     title: "Gif Expert App",
     description:
-      "Descubrí y compartí los mejores GIFs con la aplicación de búsqueda especializada! Encontrá fácilmente GIFs para expresar cualquier emoción o situación. Navegá por una amplia colección de contenido divertido, creativo y relevante. Con características de búsqueda avanzadas y una interfaz intuitiva",
+      "Descubrí y compartí los mejores GIFs con la aplicación de búsqueda especializada! Encontrá fácilmente GIFs para expresar cualquier emoción o situación. Navegá por una amplia colección de contenido divertido y creativo. Con características de búsqueda y una interfaz intuitiva",
     link: "https://gif-expert-sebastian.netlify.app/",
     github: "https://github.com/SebasPalmaSan/gif-expert",
     image: "/gif-expert-app.png",
@@ -61,7 +61,7 @@ const PROJECTS = [
   {
     title: "Todo",
     description:
-      "Challenge de Frontend Mentor: TODO realizado con React + TAILWIND CSS con Drag and Drop con libreria Hello pangea",
+      "Challenge de Frontend Mentor: TODO con React+TAILWINDCSS con Drag and Drop con libreria Hello pangea",
     link: "https://todo-vite-react-taildwind.netlify.app/",
     github: "https://github.com/SebasPalmaSan/todo-vite-react-frontendmentor",
     image: "/todo.png",
@@ -70,7 +70,9 @@ const PROJECTS = [
 ];
 ---
 
-<div class="flex flex-col gap-y-16">
+<div
+  class="grid grid-cols-1 md:grid-cols-2 gap-8 md:mx-auto md:container gap-y-16"
+>
   {
     PROJECTS.map(({ title, description, link, image, tags, github }) => (
       <article class="mb-10">
