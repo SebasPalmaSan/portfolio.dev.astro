@@ -2,14 +2,18 @@
 
 #Realizado con Astro y Tailwind
 
+Desktop About me
+![sobre-mi (2)](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/53d0af81-3bd1-46e0-9de9-bb4ea4a1fb1a)
 
 
+Desktop Experience
+![experiencia (2)](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/e6601eb3-74d0-4bb5-91b9-f720d579fbef)
 
-![Screenshot 2024-02-18 at 12-32-36 Sebastian Palma Sánchez Desarrollador Frontend](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/b642d9a2-01d2-4b44-af1b-cdb39c52624e)
+Desktop Proyects
+![proyectos (2)](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/9d7758dd-74f6-4fae-9d8f-aa4b06ca85ba)
 
+Mobile Menu close
+![mobile1](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/72fd0d54-fbac-4c00-bf61-b99df9e2b3d5)
 
-![Screenshot 2024-02-18 at 12-33-05 Sebastian Palma Sánchez Desarrollador Frontend](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/eefe9ac2-9966-4ae2-beeb-068a08af22a8)
-
-
-
-![Screenshot 2024-02-18 at 12-33-30 Sebastian Palma Sánchez Desarrollador Frontend](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/4aeccc3a-3cd0-47a4-9d17-35265dbe7a1e)
+Mobile Menu open
+![mobile2](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/d52809bb-818f-4194-be7e-20683338bb7e)
