@@ -3,6 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import Badge from "../components/Badge.astro";
 import SectionContainer from "../components/SectionContainer.astro";
 import Briefcase from "../components/icons/Briefcase.astro";
+import TechIcon from "../components/icons/TechIcon.astro";
 import CodeIcon from "../components/icons/CodeIcon.astro";
 import LinkedinIcon from "../components/icons/LinkedinIcon.astro";
 import GitHubIcon from "../components/icons/GitHubIcon.astro";
@@ -10,6 +11,7 @@ import GmailIcon from "../components/icons/GmailIcon.astro";
 import SocialPill from "../components/SocialPill.astro";
 import Experience from "../components/Experience.astro";
 import Projects from "../components/Projects.astro";
+import Tecnologies from "../components/Tecnologies.astro";
 ---
 
 <Layout title="Sebastian Palma Sánchez | Desarrollador Frontend.">
@@ -72,6 +74,14 @@ import Projects from "../components/Projects.astro";
         Proyectos
       </h2>
       <Projects />
+    </SectionContainer>
+
+    <SectionContainer id="tecnologias">
+      <h2 class="text-3xl mb-10 font-semibold flex gap-x-2 items-center">
+        <TechIcon class="size-8" />
+        Tecnologías
+      </h2>
+      <Tecnologies />
     </SectionContainer>
   </article>
 </Layout>

@@ -37,7 +37,7 @@ const PROJECTS = [
       "Mundo Pop! es un e-commerce online de FunkoPop!. Cuenta con una lista de productos disponibles y las renderiza. Cada producto cuenta con su detalle, donde podremos acceder a seleccionarlo en el carrito de compras y poder gestionar la compra. La app utiliza la base de datos de Firebase.",
     link: "https://mundo-popdb.web.app/",
     github: "https://github.com/SebasPalmaSan/mundopop",
-    image: "/mundo-pop.png",
+    image: "/mundopop.png",
     tags: [TAGS.REACT, TAGS.BOOTSTRAP],
   },
   {
@@ -46,7 +46,7 @@ const PROJECTS = [
       "Descubrí y compartí los mejores GIFs con la aplicación de búsqueda especializada! Encontrá fácilmente GIFs para expresar cualquier emoción o situación. Navegá por una amplia colección de contenido divertido y creativo. Con características de búsqueda y una interfaz intuitiva",
     link: "https://gif-expert-sebastian.netlify.app/",
     github: "https://github.com/SebasPalmaSan/gif-expert",
-    image: "/gif-expert-app.png",
+    image: "/gifapp.png",
     tags: [TAGS.REACT],
   },
   {
@@ -55,7 +55,7 @@ const PROJECTS = [
       "Encontrá desarrolladores, proyectos y colaboradores destacados en GitHub. Explorá los perfiles en Devfinder",
     link: "https://github-front-mu.vercel.app/",
     github: "https://github.com/SebasPalmaSan/Github-front",
-    image: "/definder.png",
+    image: "/devfinder.png",
     tags: [TAGS.REACT, TAGS.TAILWIND],
   },
   {
@@ -67,6 +67,16 @@ const PROJECTS = [
     image: "/todo.png",
     tags: [TAGS.REACT, TAGS.TAILWIND],
   },
+  {
+    title: "Ecommerce Product Page",
+    description:
+      "Challenge de Frontend Mentor: Página de producto de Ecommerce con React+TAILWINDCSS",
+    link: "https://ecommerce-react-taildwind.netlify.app/",
+    github:
+      "https://github.com/SebasPalmaSan/Desafio-FrontendMentor-E-commerce-product-page",
+    image: "/EcommercePageProduct.png",
+    tags: [TAGS.REACT, TAGS.TAILWIND],
+  },
 ];
 ---
 
@@ -75,12 +85,11 @@ const PROJECTS = [
 >
   {
     PROJECTS.map(({ title, description, link, image, tags, github }) => (
-      <article class="mb-10 border border-blue-200/90 py-2 px-4 mr-4 rounded-lg">
+      <article class="bg-black/70 mb-10 border border-blue-200/90 py-2 px-4 mr-4 rounded-lg">
         <h3 class="text-3xl font-semibold text-blue-200/90 mb-4 border-b-2 border-blue-200/90 text-center">
           {title}
         </h3>
         <p class="text-lg text-red-200/90">{description}</p>
-        <a href={link} />
         <ul class="flex gap-x-4 flex-row text-lg opacity-70">
           {tags.map((tag) => (
             <li>
@@ -93,11 +102,13 @@ const PROJECTS = [
             </li>
           ))}
         </ul>
-        <img
-          class="rounded shadow-2xl shadow-white/20"
-          src={image}
-          alt={`Captura de pantalla de proyecto ${image}`}
-        />
+        <a href={link}>
+          <img
+            class="rounded shadow-2xl shadow-white/20"
+            src={image}
+            alt={`Captura de pantalla de proyecto ${image}`}
+          />
+        </a>
         <footer class="flex items-end justify-start mt-4 gap-x-4">
           {github && (
             <LinkButton href={github}>
