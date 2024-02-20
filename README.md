@@ -3,17 +3,18 @@
 #Realizado con Astro y Tailwind
 
 Desktop About me
-![sobre-mi (2)](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/53d0af81-3bd1-46e0-9de9-bb4ea4a1fb1a)
-
+![aboutme](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/877e3370-1776-420e-bc09-33fc52def694)
 
 Desktop Experience
-![experiencia (2)](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/e6601eb3-74d0-4bb5-91b9-f720d579fbef)
+![experience](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/ce3ed169-41bc-466e-bbf2-9684e2cd4d46)
 
 Desktop Proyects
-![proyectos (2)](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/9d7758dd-74f6-4fae-9d8f-aa4b06ca85ba)
+![proyects](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/491e7ac2-dd94-4f88-a7fc-5a33e2de038e)
 
 Mobile Menu close
-![mobile1](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/72fd0d54-fbac-4c00-bf61-b99df9e2b3d5)
+
+![mobile close menu](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/0a5de014-1fa6-4632-8c93-7bb86453fad0)
 
 Mobile Menu open
-![mobile2](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/d52809bb-818f-4194-be7e-20683338bb7e)
+
+![mobile open menu](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/e98480ad-43d1-4263-a7a6-76f101a25365)
