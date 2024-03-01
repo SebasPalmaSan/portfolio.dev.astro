@@ -13,9 +13,10 @@ Desktop Proyects
 ![proyects](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/491e7ac2-dd94-4f88-a7fc-5a33e2de038e)
 
 Mobile Menu close
+![Screenshot 2024-03-01 at 09-58-55 Sebastian Palma Sánchez Desarrollador Frontend](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/2e4f86fa-6f51-4ef2-ae1f-a06707932b3e)
 
-![mobile close menu](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/0a5de014-1fa6-4632-8c93-7bb86453fad0)
+
 
 Mobile Menu open
 
-![mobile open menu](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/e98480ad-43d1-4263-a7a6-76f101a25365)
+![Screenshot 2024-03-01 at 09-59-13 Sebastian Palma Sánchez Desarrollador Frontend](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/fe6ec007-5146-4398-9113-959ab202f081)
