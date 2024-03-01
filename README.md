@@ -13,7 +13,9 @@ Desktop Proyects
 ![proyects](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/491e7ac2-dd94-4f88-a7fc-5a33e2de038e)
 
 Mobile Menu close
+
 ![Screenshot 2024-03-01 at 09-58-55 Sebastian Palma Sánchez Desarrollador Frontend](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/2e4f86fa-6f51-4ef2-ae1f-a06707932b3e)
+
 
 
 
