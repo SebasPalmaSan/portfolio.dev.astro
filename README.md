@@ -3,7 +3,8 @@
 #Realizado con Astro y Tailwind
 
 Desktop About me
-![aboutme](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/877e3370-1776-420e-bc09-33fc52def694)
+![Screenshot 2024-03-01 at 09-57-13 Sebastian Palma Sánchez Desarrollador Frontend](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/6f628064-4fb2-4e32-ad12-d1d7de2fa77b)
+
 
 Desktop Experience
 ![experience](https://github.com/SebasPalmaSan/portfolio.dev.astro/assets/93328462/ce3ed169-41bc-466e-bbf2-9684e2cd4d46)
